@@ -1,6 +1,7 @@
 # Gym Subscriber Management System
 
 A simple PHP & MySQL based web application to manage subscribers in a gym or similar organization.
+I need your help guys to make this project more professional from now on.
 
 ## Features
 

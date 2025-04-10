@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resiliation</title>
+</head>
+<body>
+    <form action="verif.php" method="post" onsubmit="return supp()">
+        <h1>Suppression abonné(e)</h1>
+        <hr>
+        <div>
+            <label for="cin">CIN</label>
+            <input type="text" name="cin" id="cin">
+            <br>
+            <br>
+            <input type="submit" value="Supprimer">
+            <input type="button" value="Retablir" onclick="retablir3()">
+        </div>
+    </form>
+    <style>
+        form{
+            text-align: center;
+        }
+        div{
+            margin-top: 80px;
+        }
+        label{
+            color: darkblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-right: 60px;
+        }
+    </style>
+    <script src="my.js"></script>
+</body>
+</html>

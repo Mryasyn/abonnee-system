@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <a href="ajout.html" target="y"><p>Ajout Abonné(e)</p></a>
+            <a href="gestion_abo.php" target="y" id="a2"><p>Gestion abonnement</p></a>
+            <a href="resiliation.html" target="y"><p>Résiliation</p></a>
+        </div>
+        <div>
+            <iframe src="ajout.html" name="y"></iframe>
+        </div>
+    </div>
+    <style>
+        .main{
+            text-align: center;
+            position: relative;
+            top: 250px;
+            left: 600px;
+            border: 2px solid black;
+            width: 650px;
+        }
+        iframe{
+            width: 646px;
+            height: 500px;
+        }
+        a{
+            display:inline-block;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 4px 4px red;
+        }
+        #a2{
+            margin-right: 60px;
+            margin-left: 50px;
+        }
+    </style>
+</body>
+</html>

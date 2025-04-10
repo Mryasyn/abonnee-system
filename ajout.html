@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajout</title>
+</head>
+<body>
+    <form action="ajout.php" method="post" onsubmit="return valid1()">
+        <h1>Ajout abonné(e)</h1>
+        <hr>
+        <div>
+            <label for="cin">CIN</label>
+            <input type="text" name="cin" id="cin" required>
+            <br>
+            <br>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" required>
+            <br>
+            <br>
+            <label for="pr">Prenom</label>
+            <input type="text" name="pr" id="pr" required>
+            <br>
+            <br>
+            <label for="dn">Date de naissance</label>
+            <input type="date" name="dn" id="dn" required>
+            <br>
+            <br>
+            <label for="etat">Etat civile</label>
+            <input type="radio" name="r1" id="r1" value="C">Célibataire
+            <input type="radio" name="r1" id="r2" value="M">Marié(e)
+            <br>
+            <br>
+            <label for="sexe">Sexe</label>
+            <input type="radio" name="s1" id="s1" value="M">Homme
+            <input type="radio" name="s1" id="s2" value="F">Femme
+            <br>
+            <br>
+            <input type="submit" value="Valider">
+            <input type="button" value="Retablir" onclick="retablir1()">
+        </div>
+    </form>
+    <style>
+        form{
+            text-align: center;
+        }
+        div{
+            margin-top: 80px;
+        }
+        label{
+            color: darkblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-right: 60px;
+        }
+        #dn{
+            padding: 5px;
+            padding-right: 20px;
+        }
+    </style>
+    <script src="my.js"></script>
+</body>
+</html>
